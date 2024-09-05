@@ -11,7 +11,7 @@
         // SUPPORTEF ENVIRONMENT VARIABLES
         public const string ENV_ENVIRONMENT = "NETCORE_ENVIRONMENT";
         public const string ENV_BF_RATE_LIMIT = "BF_RATE_LIMIT";
-        public const string ENV_BFCLI_API_KEY = "ipfsfzb7kzwyueYYIZKLQudXQaV6PcEF517T";
+        public const string ENV_BFCLI_API_KEY = "";
         public const string ENV_BFCLI_NETWORK = "BFCLI_NETWORK";
 
         // NETWORK NAMES
