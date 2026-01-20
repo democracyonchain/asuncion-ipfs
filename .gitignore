@@ -1,0 +1,36 @@
+# =========================
+# ASP.NET Core / Visual Studio
+# =========================
+.vs/
+bin/
+obj/
+
+# =========================
+# App settings sensibles
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node (por si luego agregas frontend)
+# =========================
+node_modules/
