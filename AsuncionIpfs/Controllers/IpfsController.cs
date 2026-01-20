@@ -18,10 +18,10 @@ namespace AsuncionIpfs.Controllers
         }
 
         [HttpPost("upload")]
+        [Consumes("multipart/form-data")]
         public async Task<IActionResult> UploadFile(IFormFile file)
         {
-            string tempFilePath = null;
-
+            string tempFilePath = null;          
             try
             {
                 if (file == null || file.Length == 0)
@@ -49,6 +49,7 @@ namespace AsuncionIpfs.Controllers
             {
                 
                 return StatusCode(500, $"Internal server error: {ex.Message}");
+               
             }
             finally
             {

@@ -11,8 +11,11 @@
         // SUPPORTEF ENVIRONMENT VARIABLES
         public const string ENV_ENVIRONMENT = "NETCORE_ENVIRONMENT";
         public const string ENV_BF_RATE_LIMIT = "BF_RATE_LIMIT";
-        public const string ENV_BFCLI_API_KEY = "";
+        public const string ENV_BFCLI_API_KEY = "BFCLI_API_KEY";
         public const string ENV_BFCLI_NETWORK = "BFCLI_NETWORK";
+
+        // CARDANO API
+        public const string ENV_BF_CARDANO_API_KEY = "BF_CARDANO_API_KEY";
 
         // NETWORK NAMES
         public const string NETWORK_MAINNET = "mainnet";
